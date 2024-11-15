@@ -33,7 +33,7 @@ square(5);
 console.log(up (5));
 
 //Задание 4
-function userAge(age) {
+function userAge() {
     let age = +prompt(`Сколько тебе лет?`);
 
     if (age < 0) {
@@ -45,7 +45,7 @@ function userAge(age) {
     }
 }
 
-age();
+userAge();
 
 //Задание 5
 function calc(a,b) {
